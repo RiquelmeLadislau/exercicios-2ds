@@ -19,7 +19,7 @@ router.get("/:id", (req,res)=>{
 })
 
 router.post("/", (req,res)=>{
-  res.json({ produtos:[{ "id": 4, "nome": "Headset RGB", "preco": 200 }]})
+  res.json({"id": 99, "nome": "Webcam", "preco": 300 })
 })
 
 export default router

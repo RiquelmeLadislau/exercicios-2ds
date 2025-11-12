@@ -12,9 +12,9 @@ router.get("/ping", (req,res)=>{
 
 
 router.get("/", (req, res) => {
-  let name:string = "Everson"
-  let age: number = 3000
-  res.json({ name, age })
+  let nome:string = "Everson"
+  let idade: number = 34
+  res.json({ nome, idade })
 });
 
 export default router
